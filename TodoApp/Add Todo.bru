@@ -1,0 +1,22 @@
+meta {
+  name: Add Todo
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{url}}/todos
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
